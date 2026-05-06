@@ -465,7 +465,7 @@ func main() {
 			}
 		}))
 		c.Start()
-		// A normal change
+		// A not docs change
 	}
 
 	router.Run()
