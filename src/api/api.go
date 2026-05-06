@@ -140,7 +140,7 @@ type SendMessageV2 struct {
 	TextMode          *string             `json:"text_mode,omitempty" enums:"normal,styled"`
 	EditTimestamp     *int64              `json:"edit_timestamp,omitempty"`
 	NotifySelf        *bool               `json:"notify_self,omitempty"`
-	LinkPreview       *ds.LinkPreviewType `json:"link_preview,omitempty"`
+	LinkPreview       *ds.LinkPreviewType `json:"link_preview"`
 	ViewOnce          *bool               `json:"view_once,omitempty"`
 }
 
