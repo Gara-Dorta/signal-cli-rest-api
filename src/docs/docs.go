@@ -3113,6 +3113,7 @@ const docTemplate = `{
         "api.SendMessageV2": {
             "type": "object",
             "required": [
+                "link_preview",
                 "message",
                 "number",
                 "recipients"

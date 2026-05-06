@@ -323,6 +323,7 @@ definitions:
       view_once:
         type: boolean
     required:
+    - link_preview
     - message
     - number
     - recipients
